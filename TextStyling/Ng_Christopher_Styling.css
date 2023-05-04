@@ -1,0 +1,20 @@
+h1 {
+    color: white;
+    background-color: black;
+    font-style: unset;
+}
+h1 cloud {
+    color: cyan;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: purple;
+    font-style: italic; 
+}
+h3{
+    background-color: cornflowerblue;
+    text-align: right;
+    text-decoration: underline;
+    font-style: oblique;
+}
