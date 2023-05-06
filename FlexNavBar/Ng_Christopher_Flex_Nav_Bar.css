@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkslategray;
+    height: 60px;
+    width: 1000px;
+    color: gray;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.nav-title{
+    color: white;
+}
+.btn{
+    background-color: skyblue;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+    color: gray;
+}
