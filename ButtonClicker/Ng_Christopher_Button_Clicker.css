@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav{
+    width: 800px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.searchbar{
+    width: 350px;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.Login{
+    font-size: 15px;
+    height: 20;
+    padding: 3px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    border: 3px solid darkslategrey;
+    border-radius: 3px;
+    margin: 15px 0px;
+    padding: 5px;
+}
+
+.cardlist{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.definition{
+    margin-left: 40px;
+}
+
+.smallcard{
+    width: 250px;
+    border: 3px solid darkslategrey;
+    border-radius: 3px;
+    margin: 15px 0px;
+    padding: 15px 25px;
+}
+
+.row{
+    display: flex;
+}
+
+.col-left, .col-right{
+    flex: 2;
+}
+
+.col-right{
+    flex:1;
+}
+
+.likes{
+    height: 25px;
+    background-color: lightyellow;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 3px 3px #000000;
+    padding: 2px;
+    margin-top: 25px;
+}
+
+.addDefinition{
+    height: 25px;
+    background-color: forestgreen;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 3px 3px #000000;
+    padding: 2px;
+    margin-top: 15px;
+}

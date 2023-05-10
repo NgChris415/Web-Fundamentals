@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ng_Christopher_Button_Clicker.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="title">Dojonary</h1>
+            <div class="searchbar">
+                Search
+            </div>
+            <button onclick="logout(this)" class="Login">Login</button>
+            <!-- <input type="submit" class="Login" value="Login" onclick="logout(this)"> -->
+        </div>
+        <div class="row">
+            <div class="col-left">
+                <div class="card">
+                    <ul class="cardlist">
+                        <li><h1>ninja</h1></li>
+                        <li>noun</li>
+                        <li class="nowrap">Plural: ninjas</li>
+                        <li><input type="submit" class="likes" value="13 likes" onclick="alert('Ninja was liked')"></li>
+                    </ul>
+                    <p class="definition">
+                        A Practitioner skilled in the 
+                        <a href="#">Japanese</a>
+                        art of
+                        <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+                <div class="card">
+                    <ul class="cardlist">
+                        <li><h1>ninja</h1></li>
+                        <li>noun</li>
+                        <li class="nowrap">Plural: ninjas</li>
+                        <li><input type="submit" class="likes" value="37 likes" onclick="alert('Ninja was liked')"></li>
+                    </ul>
+                    <p class="definition">
+                        A
+                        <a href="#">programmer</a>
+                        who breaks down problems with
+                        <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="smallcard">
+                    <div>
+                        <h2>
+                            Dojonary is defined by YOU
+                        </h2>
+                        <input type="submit" class="addDefinition" value="Add Definition" onclick="hide(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Ng_Christopher_Button_Clicker.js"></script>
+    </div>
+</body>
+</html>
